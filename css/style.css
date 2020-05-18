@@ -109,19 +109,21 @@ header ul li a:hover{
 
 header .menu-toggle{
   display: none;
+  
 }
 /*Post Slider */
 .post-slider{
   position: relative;
+  
 }
 .post-slider .slider{
   text-align:center;
-  margin-top: 100px auto;
+  margin-top: 20px auto;
   font-size: 20px;
 
 
 }
-.post-slider .next{
+/*.post-slider .next{
   position: absolute;
   top: 50%;
   right:30px;
@@ -137,7 +139,7 @@ header .menu-toggle{
     font-size: 2em;
     color:goldenrod;
     cursor:pointer;
-    }
+    }*/
 .post-slider .post-wrapper{
   width: 50%;
   height: 200px;
