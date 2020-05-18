@@ -1,0 +1,226 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0px;
+  background: gray;
+  margin:0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.banner{
+  position: relative;
+  height: 170px;
+  overflow: hidden;
+  background: url(/home/babatunde/Documents/AppPlus2/images/banner.jpg) no-repeat center;
+  background-size: cover;
+}
+.container{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  margin: 5px;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.page-wrapper a:hover{
+  color: goldenrod;
+}
+
+header{
+  background: goldenrod;
+  height: 66px;
+}
+header *{
+  color:black;
+}
+header .logo{
+  float: right;
+  margin-left: 2em;
+  border: 1px solid color whitesmoke;
+  height: inherit;
+
+}
+header .logo-text{
+  font-family: 'Open Sans', sans-serif;
+  margin:10px;
+}
+header .logo-text span{
+color: yellow;
+}
+header ul{
+  float:left;
+  margin: 0px;
+  padding:0px;
+  list-style: none;
+}
+header ul li{
+  float: left;
+  position: relative;
+}
+header ul li ul{
+  position: absolute;
+  top: 66px;
+  width:180px;
+  right:0px;
+  display: none;
+  z-index: 88888;
+}
+header ul li:hover ul{
+  display: block;
+}
+header ul li ul li{
+  width: 100%;
+}
+header ul li ul li a{
+  padding: 8px;
+  margin-left: 35px;
+  background: gray;
+  color: rgb(37, 36, 36);
+}
+header ul li ul li a.logout{
+  color: rgb(252, 71, 71);
+}
+header ul li ul li a:hover{
+  background: yellow;
+}
+
+
+header ul li a{
+  display: block;
+  padding: 21px;
+  font-size: 1.1em;
+  text-decoration: none ;
+}
+header ul li a:hover{
+ background: goldenrod;
+ transition: 0.5s;
+
+}
+
+header .menu-toggle{
+  display: none;
+}
+/*Post Slider */
+.post-slider{
+  position: relative;
+}
+.post-slider .slider{
+  text-align:center;
+  margin-top: 100px auto;
+  font-size: 20px;
+
+
+}
+.post-slider .next{
+  position: absolute;
+  top: 50%;
+  right:30px;
+  font-size: 2em;
+  color:goldenrod;
+  cursor: pointer;
+
+  }
+  .post-slider .prev{
+    position: absolute;
+    top: 50%;
+    left:30px;
+    font-size: 2em;
+    color:goldenrod;
+    cursor:pointer;
+    }
+.post-slider .post-wrapper{
+  width: 84%;
+  height: 200px;
+  margin: 0px auto;
+  overflow: hidden;
+  padding: 7px 0px 7px 0px;
+}
+.post-slider .post-wrapper .post{
+  height: 270px;
+  width: 300px;
+  background: white;
+  display: inline-block;
+  margin: 0px 7px;
+  border-radius: 10px;
+  box-sizing: 1rem 1rem 1rem -1rem gray;
+}
+.post-slider .post-wrapper .post .info{
+  height: 130px;
+  padding:0px 10px ;
+}
+.post-slider .title{
+  text-align: center;
+  margin: 30px auto;
+  font-weight: normal;
+}
+.post-slider .post-wrapper .post .slider-image{
+  width:100%;
+  height: 140px;
+ border-top-left-radius: 7px;
+ border-top-right-radius: 7px;
+
+
+}
+
+/* media Queries */
+@media only screen and (max-width: 750px){
+
+  header{
+    position: relative;
+  }
+
+.banner{
+  position: relative;
+  background-size: cover;
+}
+
+  header ul{
+    width: 100%;
+    background: yellow;
+    max-height: 0px;
+    overflow: hidden;
+  }
+  .showing{
+    max-height: 100em;
+  }
+  header ul li{
+    width: 100%;
+  }
+  header ul li ul{
+    position: static;
+    display: block;
+    width:100%;
+  }
+  header ul li ul li a{
+    padding: 8px;
+    margin-left: 35px;
+    background:goldenrod;
+    color: rgb(37, 36, 36);
+  }
+  header ul li ul li a.logout{
+    color: rgb(252, 71, 71);
+  }
+  header ul li ul li a:hover{
+    background: yellow;
+  }
+  header .menu-toggle{
+    display:block;
+    position: absolute;
+    left:20px;
+    top: 20px;
+    font-size: 1.9em;
+
+  }
+
+
+}
