@@ -12,7 +12,7 @@ body{
   position: relative;
   height: 170px;
   overflow: hidden;
-  background: url(/home/babatunde/Documents/AppPlus2/images/banner.jpg) no-repeat center;
+  background: url(images/banner.jpg) no-repeat center;
   background-size: cover;
 }
 .container{
