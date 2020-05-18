@@ -147,7 +147,7 @@ header .menu-toggle{
 }
 .post-slider .post-wrapper .post{
   height: 270px;
-  width: 120px;
+  width: 100px;
   background: white;
   display: inline-block;
   margin: 0px 7px;
@@ -156,7 +156,7 @@ header .menu-toggle{
 }
 .post-slider .post-wrapper .post .info{
   height: 130px;
-  padding:0px 10px ;
+  padding:0px 10px;
 }
 .post-slider .title{
   text-align: center;
