@@ -139,24 +139,26 @@ header .menu-toggle{
     cursor:pointer;
     }
 .post-slider .post-wrapper{
-  width: 84%;
+  width: 50%;
   height: 200px;
   margin: 0px auto;
   overflow: hidden;
   padding: 7px 0px 7px 0px;
+
 }
 .post-slider .post-wrapper .post{
-  height: 270px;
-  width: 100px;
+  height: 170px;
+  width: 120px;
   background: white;
   display: inline-block;
   margin: 0px 7px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-sizing: 1rem 1rem 1rem -1rem gray;
 }
 .post-slider .post-wrapper .post .info{
   height: 130px;
-  padding:0px 10px;
+  padding:0px 10px ;
+  border-radius: 20px;
 }
 .post-slider .title{
   text-align: center;
