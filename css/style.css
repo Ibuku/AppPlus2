@@ -67,6 +67,7 @@ header ul li{
   float: left;
   position: relative;
 }
+
 header ul li ul{
   position: absolute;
   top: 66px;
@@ -91,7 +92,7 @@ header ul li ul li a.logout{
   color: rgb(252, 71, 71);
 }
 header ul li ul li a:hover{
-  background: yellow;
+  background: goldenrod;
 }
 
 
@@ -109,7 +110,7 @@ header ul li a:hover{
 
 header .menu-toggle{
   display: none;
-  margin: 0px;
+
 }
 /*Post Slider */
 .post-slider{
@@ -190,7 +191,7 @@ header .menu-toggle{
 
   header ul{
     width: 100%;
-    background: yellow;
+    background: rgb(233, 186, 69);
     max-height: 0px;
     overflow: hidden;
   }
@@ -200,6 +201,7 @@ header .menu-toggle{
   header ul li{
     width: 100%;
   }
+
   header ul li ul{
     position: static;
     display: block;
@@ -208,21 +210,21 @@ header .menu-toggle{
   header ul li ul li a{
     padding: 8px;
     margin-left: 35px;
-    background:goldenrod;
+    background:rgb(233, 186, 69);
     color: rgb(37, 36, 36);
   }
   header ul li ul li a.logout{
     color: rgb(252, 71, 71);
   }
   header ul li ul li a:hover{
-    background: yellow;
+    background: goldenrod
   }
   header .menu-toggle{
     display:block;
     position: absolute;
     left:20px;
     top: 20px;
-    font-size: 1.9em;
+    font-size: 1.5em;
 
   }
 

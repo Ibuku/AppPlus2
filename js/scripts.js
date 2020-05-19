@@ -10,7 +10,7 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 2000,
     //nextArrow: $('.next'),
-    //prevArrow: $('.prev'),
+    prevArrow: $('.prev'),
     responsive: [
       {
         breakpoint: 1024,
